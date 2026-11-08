@@ -181,7 +181,7 @@ main{
     align-items: flex-start;
     justify-content: center;
     margin: 0 auto;
-    width: 52%;
+    width: 53%;
     gap: 48px;
     padding: 40px 0;
     margin-top: 70px;
@@ -296,7 +296,7 @@ main{
 .experience-section {
     padding-top: 80px;
     margin: 0 auto;
-    width: 52%;
+    width: 53%;
 }
 
 .experience-title{
@@ -458,7 +458,7 @@ main{
     color: var(--color-lightgrey);
     background: #050608;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 4px 10px;
+    padding: 4px 8px;
     border-radius: 2px;
     transition: all 0.2s ease-in-out;
 }
@@ -482,7 +482,7 @@ main{
 .projects-section {
     padding-top: 80px;
     margin: 30px auto;
-    width: 52%;
+    width: 53%;
 }
 
 .projects-title{
@@ -606,7 +606,6 @@ main{
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 16px;
 }
 
 .project-link {
@@ -641,7 +640,7 @@ main{
 .skills-section {
     padding-top: 80px;
     margin: 30px auto;
-    width: 52%;
+    width: 53%;
 }
 
 .skills-title{
@@ -711,7 +710,7 @@ main{
     color: var(--color-lightgrey);
     background: #050608;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 6px 14px;
+    padding: 4px 8px;
     border-radius: 2px;
     cursor: default;
     transition: all 0.2s ease-in-out;
@@ -776,7 +775,7 @@ main{
 .education-section {
     padding-top: 80px;
     margin: 30px auto;
-    width: 52%;
+    width: 53%;
 }
 
 .education-title{
@@ -822,6 +821,7 @@ main{
 
 .education-header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 16px;
@@ -829,8 +829,9 @@ main{
 }
 
 .institution-name {
-    font-family: var(--font-heading);
+    font-family: var(--font-mono);
     font-size: large;
+    font-weight: 500;
     color: var(--color-green);
     margin: 0 0 4px 0;
     letter-spacing: 0.5px;
@@ -872,7 +873,7 @@ main{
 .certifications-section {
     padding-top: 80px;
     margin: 30px auto;
-    width: 52%;
+    width: 53%;
 }
 
 .certifications-title{
@@ -1129,7 +1130,7 @@ main{
     padding-bottom: 40px;
     padding-top: 30px;
     padding-right: auto;
-    width: 52%;
+    width: 53%;
 }
 
 .volunteering-title{
